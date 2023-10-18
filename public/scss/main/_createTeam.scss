@@ -1,0 +1,213 @@
+
+
+
+#createTeamModal{
+
+    .team-bg-area {
+        background-color: #FBFFFE;
+        border-radius: 16px;
+        padding: 30px 50px 20px;
+        font-family: 'Poppins', sans-serif;
+        background-image: url(/images/teambg.png);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        .title {
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 60px;
+            color: #1E2329;
+            padding-top: 10px;
+        }
+
+        .teamFormContent{
+            width: 420px;
+        }
+        .form-area{
+            .social-icon.avter_option {
+                display: none;
+            }
+            .social-icon.avter_option img {
+                width: 42px;
+                height: 42px;
+            }
+            .social-icon.avter_option img.twitter{
+                background: #fff;
+                margin-right: 8px;
+                padding: 3px;
+                box-shadow: 0 0 14px #e9e6e6;
+                border-radius: 3px;
+            }
+            .choose-avater{
+                display: flex;
+                gap: 15px;
+                align-items: center;
+                border: 1px solid #DFE4E7;
+                border-radius: 14px;
+                background: #fff;
+                padding: 5px;
+                width: 70%;
+                margin-bottom: 15px;
+                .avaterImage{
+                    position: relative;
+                    .avaterEdit{
+                        position: absolute;
+                        bottom: 5px;
+                        right: 5px;
+                        background-color: rgba(0, 0, 0, 0.8);
+                        color: #fff;
+                        border-radius: 8px;
+                        width: 24px;
+                        height: 24px;
+                        padding: 0;
+                        font-size: 14px;
+                        line-height: 13px;
+                        &:hover{
+                            background-color: rgba(0, 0, 0, 1);  
+                        }
+                    }
+                }
+                p{
+                    color: #474D57;
+                    font-size: 16px;
+                }
+            }
+            .choose-form-input{
+
+                .input-group-item{
+                    margin-bottom: 20px;
+                    label{
+                        color: #474D57;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        margin-bottom: 18px;
+                        line-height: 24px;
+                    }
+                    .form-control{
+                        height: 40px;
+                        background: #FFFFFF;
+                        border: 1px solid #DFE4E7;
+                        border-radius: 4px;
+                        box-shadow: none;
+                    }
+                    .sharingLink{
+                        position: relative;
+                        .link_copy{
+                            position: absolute;
+                            top: 3px;
+                            right: 3px;
+                            background-color: #2F80ED;
+                            border-color: #2F80ED;
+                            padding:5px 15px;
+                            border-radius: 5px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 21px;
+                            i{
+                                margin-right: 6px;
+                            }
+                        }
+                    }
+
+                    .anotherEmail{
+                        border: 2px dashed #DFE4E7;
+                        border-radius: 4px;
+                        background: #FFFFFF;
+                        display: block;
+                        width: 100%;
+                        height: 40px;
+                        color: #c5c6c7;
+                        font-family: 'Poppins', sans-serif;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        text-align: left;
+                        padding: 0 13px;
+                    }
+                    
+                }
+
+                .social-icon{
+                    margin: 30px 0;
+                    a{
+                        
+                        text-align: center;
+                        line-height: 50px;
+                        box-shadow: 0 0  20px #f6f6f6;
+                        display: inline-block;
+                        img{
+                            width: 42px;
+                            height: 42px;
+                        }
+
+                        img.twitter{
+                            background: #fff;
+                            margin-right: 8px;
+                            padding: 3px;
+                            box-shadow: 0 0 14px #e9e6e6;
+                            border-radius: 3px;
+                        }
+
+                    }
+                }
+
+                .button-invite{
+                    margin: 50px 0 80px;
+                    .invite{
+                        border: 2px dashed #D2E6FB;
+                        border-radius: 4px;
+                        background: #FFFFFF;
+                        display: block;
+                        color: #007FFF;
+                        padding: 7px 30px;
+                        height: 47px;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+        .back-to-home {
+            padding: 20px 0 30px;
+            /* display: none; */
+            position: absolute;
+            bottom: -84px;
+            color: #fff;
+            left: 50%;
+            transform: translateX(-50%);
+            span{
+                color: #fff;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+            }
+            i{
+                margin-right: 12px;
+                font-size: 12px;
+            }
+        }
+
+    }
+
+}
+#createTeamModal .team-bg-area .form-area .choose-form-input .input-group-item.btm .form-control::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+#createTeamModal .team-bg-area .form-area .choose-form-input .input-group-item .form-control.choose::placeholder {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8F95A4;
+}
+

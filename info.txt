@@ -1,0 +1,16 @@
+
+
+HomePage:
+http://localhost:3000/
+
+Login Page:
+http://localhost:3000/login
+
+Login With Page:
+http://localhost:3000/login-with
+
+Registration Page:
+http://localhost:3000/registration
+
+Registration 2 Page:
+http://localhost:3000/registration2

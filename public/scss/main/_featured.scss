@@ -1,0 +1,190 @@
+
+@import 'navigation';
+.featured_area{
+    background-color: var(--body-bg-color);
+    color: var(--body-color);
+    padding-bottom: 20px;
+
+    .custom_container{
+        padding-left: 50px;
+        padding-right: 0;
+        &.negMargin{
+            .top_ten_product_listing  {
+                .nextPrevBtn.slick-next{
+                    right: 210px;
+                }
+            }
+        }
+    }
+
+    .featured_title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 32px;
+        a{
+            color: #fff;
+        }
+    }
+    .product_listing{
+        .single_item{
+            margin-right: 15px;
+            transition: .5s;
+            .product-img{
+                text-align: left;
+                img{
+                    width: 100%;
+                    border-radius: 5px;
+                }
+            }
+            .product-dsrp{
+                margin-top: 15px;
+                color: #fff;
+                p{
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    
+                }
+            }
+
+            a:hover{
+                color: var(--body-color);
+            }
+            // &:hover{
+            //     transform: scale(1.1);
+            //     transition: .5s;
+            //     z-index: 5;
+            //     padding-bottom: 15px;
+            // }
+        }
+    }
+
+    .listing-box{
+        .slick-slide{
+            padding-right: 20px;
+        }
+    }
+
+    .top_ten_product_listing{
+        .slick-track{
+            display: flex;
+        }
+        .single_item{
+            .product_box{
+                position: relative;
+                display: block;
+                width: 100%;
+                overflow: hidden;
+                padding-right: 15px;
+                .product_number{
+                    position: absolute;
+                    top: 0;
+                    right: 70%;
+                    z-index: -1;
+                    span{
+                        font-size: 240px;
+                        line-height: 72%;
+                        font-weight: bold;
+                        font-family: 'Open Sans', sans-serif;
+                        color: transparent;
+                        -webkit-text-stroke: 3px #545A64;
+                        text-stroke: 3px #545A64;
+                    }
+                }
+            }
+            .product-img{
+                position: relative;
+                z-index: 1;
+                text-align: right;
+                width: 55%;
+                float: right;
+                img{
+                    display: inline-block;
+                    width: 100%;
+                }
+            }
+            .product-dsrp{
+                color: #fff;
+                color: #fff;
+                clear: both;
+                text-align: right;
+                width: 100%;
+                padding-top: 15px;
+                p{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-family: 'Inter', sans-serif;
+                }
+            }
+        }
+    }
+
+    .product_listing_{
+        .slick-track{
+            display: flex;
+        }
+    }
+    
+    // .slick-list{
+    //     overflow: visible;
+    //     &:before{
+    //         position: absolute;
+    //         top: 0;
+    //         left: 0;
+    //         width: 100%;
+    //         height: 100%;
+    //         content: '';
+    //         background-color: rgba(0,0,0, .80);
+    //         z-index: -1;
+    //         opacity: 0;
+    //         transition: .5s;
+    //     }
+    //     &:hover:before{
+    //         z-index: 1;
+    //         opacity: 1;
+    //         transition: .5s;
+    //     }
+    // }
+    
+}
+
+
+
+
+.top_ten_product_listing,.product_listing{
+    position: relative;
+    .nextPrevBtn{
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(50%);
+        color: #fff;
+        z-index: 3;
+        font-size: 39px;
+        // background: rgba(0,0,0,50%);
+        padding: 5px;
+        transform: translate(0, -80%);
+        cursor: pointer;
+        transition: .5s;
+        &:hover{
+            // background: rgba(0,0,0,100%);
+            transition: .5s;
+        }
+        &.slick-prev{
+            left: 0;
+        }
+        &.slick-next{
+            right: 0;
+        }
+        
+    }
+    &:hover .nextPrevBtn{
+        display: block;
+        opacity: 1;
+        transition: .5s;
+    }
+}

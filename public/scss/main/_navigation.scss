@@ -1,0 +1,84 @@
+.swiper-button-next, .swiper-button-prev {
+  position: absolute;
+  top: 35%;
+  width: calc(30px/ 44 * 27);
+  height: 30px;
+  margin-top: calc(0px - (30px/ 2));
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  opacity: 0;
+  transition: .5s;
+}
+
+.product_listing :hover .swiper-button-next,
+.product_listing :hover .swiper-button-prev {
+  opacity: 1;
+  transition: .5s;
+}
+
+.swiper-button-next {
+  margin-right: 15px;
+}
+
+
+.swiper-wrapper .swiper-slide{
+  transition: .5s;
+}
+
+.movieShowcase__container--movie__netflix:hover ~ .movieShowcase__container--movie__netflix {
+  transform: translate3d(1rem, 0, 0);
+  transition: .5s;
+  opacity: 0.3 !important;
+}
+.swiper-wrapper:hover .swiper-slide:hover {
+  //transform: scale(1.1) !important;
+  opacity: 1 !important;
+  transition: .5s;
+  z-index: 10001;
+}
+
+.swiper-wrapper:hover .swiper-slide {
+  z-index: 10000;
+  opacity: 0.3 !important;
+}
+
+
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+}
+div.swiper-button-prev, div.swiper-button-next {
+  transition: all 450ms !important;
+  color: white;
+}
+
+
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: 'prev';
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: 'next';
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 30px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-scrollbar,
+.swiper-pagination{
+  display: none;
+}
+

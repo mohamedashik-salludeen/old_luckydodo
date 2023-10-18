@@ -1,0 +1,71 @@
+.city-area{
+    background-color: var(--body-bg-color);
+    min-height: 100vh;
+    .col{
+        padding: 7px;
+    }
+    .singleCity{
+        display: block;
+        width: 100%;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 2;
+        transition: .5s;
+        img{
+            width: 100%;
+        }
+        .cityImg{
+            display: block;
+            width: 100%;
+        }
+        .cityName{
+            line-height: 1.5; 
+            text-align: center;
+            color: #FFFFFF;
+            position: absolute; 
+            top: 50%;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+         }
+    }
+}
+
+.city-area .singleCity::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    content: '';
+    transition: .5s;
+    /* z-index: -1; */
+}
+.city-area .singleCity:hover:before {
+    opacity: 0.8;
+    transition: .5s;
+    cursor: pointer;
+}
+.city-area .singleCity.active::before {
+    opacity: 0.8;
+}
+
+.city-area .checked {
+    position: absolute;
+    color: green;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    bottom: 10px;
+    background: #fff;
+    text-align: center;
+    line-height: 20px;
+    right: 11px;
+} 

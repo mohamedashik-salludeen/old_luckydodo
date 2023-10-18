@@ -1,0 +1,78 @@
+#favoriteModal, #categoryModal{
+    .modal-body{
+        background-color: #191919;
+        .favoriteTitle{
+            margin: 100px 0 50px;
+            h1{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 32px;
+                text-align: center;
+                color: #FFFFFF;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+        .favoriteProductListing{
+            margin: 0 80px;
+            .titleToosl{
+                display: flex;
+                justify-content: space-between;
+                margin: 20px 0;
+                .favTitle{
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                    font-family: 'Roboto', sans-serif;
+                }
+                .favTools{
+                    button{
+                        background-color: transparent;
+                        border: 1px solid #B8B8B8;
+                        color: #D9D9D9;
+                        padding: 2px 15px;
+                        &:first-child{
+                            border-right: none;
+                        }
+                    }
+
+                }
+
+            }
+            .fabListing{
+                .singleProduct{
+                    margin-bottom: 20px;
+                    .proImage{
+                        position: relative;
+                        .proImg{
+
+                        }
+                        .favoriteBtn{
+                            position: absolute;
+                            bottom: 10px;
+                            right: 10px;
+                            background-color: transparent;
+                            border: none;
+                            color: #DB2E2E;
+                            font-size: 22px;
+                        }
+                    }
+
+                    .proTitle{
+                        a{
+                            font-family: 'Inter', sans-serif;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 19px;  
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        .favoriteModal-content{
+            pointer-events: auto;
+        }
+    }
+}

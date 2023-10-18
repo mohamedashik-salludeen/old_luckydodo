@@ -1,0 +1,33 @@
+/*======== Table of Css Content ==========*/
+/* Typography */
+/* variables */
+/* Global style */
+
+/* 
+=========================
+=========================
+*/
+
+// Sass Global
+// @import "../public/scss/main/_fonts.scss";
+@import "../public/scss/main/_global.scss";
+@import "../public/scss/main/_headerFooter.scss";
+@import "../public/scss/main/_hero.scss";
+@import "../public/scss/main/_search.scss";
+@import "../public/scss/main/_featured.scss";
+@import "../public/scss/main/_createTeam.scss";
+@import "../public/scss/main/_favorite.scss";
+@import "../public/scss/main/_city.scss";
+@import "../public/scss/main/_productModal.scss";
+
+// Pages
+@import "../public/scss/pages/_preloader.scss";
+@import "../public/scss/pages/_loginRegistration.scss";
+@import "../public/scss/pages/_profile.scss";
+@import "../public/scss/pages/_explore.scss"; 
+
+
+@import "../public/scss/main/_responsive.scss";
+
+// Responsive Area
+

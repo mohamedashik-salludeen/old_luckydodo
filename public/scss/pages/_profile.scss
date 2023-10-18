@@ -1,0 +1,458 @@
+.profile_area{
+    background-color: var(--body-bg-color);
+    min-height: 100vh;
+    padding-top: 50px;
+    color: #fff;
+    .profileHeading{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        a{
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .hedingTitle {
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+    .profileBox{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 30px;
+        .profImag{
+            position: relative;
+            z-index: 2;
+            i{
+                position: absolute;
+                bottom: 4px;
+                right: 3px;
+                width: 23px;
+                height: 23px;
+                background: #000;
+                border-radius: 8px;
+                text-align: center;
+                font-size: 13px;
+                line-height: 19px;
+                color: #fff;
+            }
+        }
+        .profTitle{
+            h3{
+                color: #fff;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 500;
+                font-family: 'Poppins', sans-serif;
+            }
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 30px;
+                font-family: 'Poppins', sans-serif;
+                color: #ACACAC;
+            }
+        }
+    }
+    .groupBoxArea{
+        .groupSection {
+            background-color: #313F55;
+            border-radius: 18px;
+            padding: 15px;
+            position: relative;
+            .groupList-area {
+                .groupImg{
+                    position: relative;
+                    z-index: 2;
+                    i{
+                        position: absolute;
+                        bottom: 4px;
+                        right: 3px;
+                        width: 23px;
+                        height: 23px;
+                        background: #000;
+                        border-radius: 8px;
+                        text-align: center;
+                        font-size: 13px;
+                        line-height: 19px;
+                        color: #fff;
+                    }
+                }
+                display: flex;
+                justify-content: space-between;
+                .groupTitleEver {
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 30px;
+                    background: #262F3D;
+                    padding: 7px 14px;
+                    border-radius: 10px;
+                    flex: 0 0 53%;
+                    height: 46px;
+                }
+                .iconDelete {
+                    background: #262F3D;
+                    font-size: 23px;
+                    padding: 6px 8px;
+                    color: #ef3d3d;
+                    border-radius: 10px;
+                    height: 46px;
+                    button{
+                        border: none;
+                        background: none;
+                        color: #ef3d3d;
+                        padding: 0 0;
+                    }
+                }
+                
+            }
+        }
+
+        .groupListing {
+            padding: 25px 0 0;
+            img{
+                width: 26px;
+                border-radius: 50px;
+                margin-right: 10px;
+            }
+            span{
+                font-family: "Poppins", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+        button.btn.btn-info.invite.grp2 {
+            background: #2F80ED;
+            border-radius: 6px;
+            padding: 4px 12px 5px 7px;
+            border: none;
+            color: #fff;
+            position: absolute;
+            right: 18px;
+            bottom: 20px;
+            i{
+                font-size: 14px;
+                line-height: 10px;
+                margin-right: 5px;
+            }
+        }
+        
+        .groupBox{
+            background-color: #313F55;
+            border-radius: 18px;
+            display: flex;
+            padding: 15px;
+            align-items: center;
+            gap: 15px;
+            .groupImg{
+                width: 66px;
+                position: relative;
+                z-index: 2;
+            }
+            button.btn.btn-info.invite {
+                background: #2F80ED;
+                border-radius: 6px;
+                padding: 4px 12px 5px 7px;
+                border: none;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 400;
+                font-family: "Poppins", sans-serif;
+                i{
+                    font-size: 14px;
+                    line-height: 10px;
+                    margin-right: 5px;
+                }
+            }
+            .groupTool{
+                flex: 1;
+                .groupTitle{
+                    font-family: "Poppins", sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 30px;
+                    padding-bottom: 3px;
+                }
+                .groupMembers{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .membersIcons{
+                        display: flex;
+                        padding-left: 5px;
+                        .singleIcon{
+                            margin-left: -5px;
+                            position: relative;
+                            width: 20px;
+                            height: 20px;
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                                display: block;
+                            }
+                            button{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                                background-color: rgba(0,0,0,0.5);
+                                color: #fff;
+                                border-radius: 50%;
+                                font-size: 10px;
+                                line-height: 10px;
+                            }
+                        }
+                        
+                    }
+                    .memberInvite{
+                        .invite{
+                        
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    .avatarArea{
+        margin-top: 30px;
+        
+        .section_title{
+            font-size: 14px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+        }
+        .avatarList{
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .singleAvatar{
+                width: calc(16.666% - 10px);
+                img{
+                    max-width: 88px;
+                    max-height: 88px;
+                    border-radius: 15px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.profile_settings{
+
+    .settings_area{
+        margin-top: 30px;
+    }
+
+    .avaterImage{
+        position: relative;
+        max-width: 55px;
+        .avaterEdit{
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border-radius: 8px;
+            left:15px;
+            top:15px;
+            padding: 5px;
+            font-size: 14px;
+            line-height: 13px;
+            &:hover{
+                background-color: rgba(0, 0, 0, 1);  
+            }
+        }
+    }
+
+    .editProfileBlock{
+        display: flex;
+        color: #fff;
+        gap: 20px;
+        label{
+            color: #fff;
+        }
+        .edit_form,.changePassword,.privacySettings{
+            flex: 1;
+        }
+        .avaterImageArea{
+            margin-right: 15px;
+        }
+        .edit_form{
+            .singleForm{
+                display: flex;
+                align-items: center;
+                margin-bottom: 15px;
+                .formLabel{
+                    width: 110px;
+                    label{
+                        font-weight: 600;
+                        font-size: 14px;
+                        font-family: 'Inter', sans-serif;
+                    }
+                }
+                .formInput{
+                    display: flex;
+                    gap: 10px;
+                    .inp{
+                        .form-control{
+                            height: 45px;
+                            background-color: #2C3C55;
+                            color: #fff;
+                            border: 1px solid #F4F4F4;
+                            width: 240px;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            font-size: 14px;
+                            font-family: 'Inter', sans-serif;
+                        }
+                    }
+                    button{
+                        background-color: #fff;
+                        border: none;
+                        color: #4CAF50;
+                        border-radius: 8px;
+                        width: 46px;
+                        i{
+
+                        }
+                    }
+                    
+                }
+                .btn-save{
+                    background: #436DB3;
+                    border-radius: 8px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #fff;
+                    padding: 6px 64px;
+                }
+            }
+        }
+        .changePassword,.privacySettings{
+            background: #2C3C55;
+            border-radius: 8px;
+            padding: 20px 80px 30px 30px;
+            .heading{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 30px;
+            }
+            .fieldText{
+                font-family: 'Open Sans', sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+            .form-control{
+                background: #1B2330;
+                height: 36px;
+                border-radius: 8px;
+                color: #fff;
+                margin-bottom: 15px;
+                font-size: 12px;
+                font-family: 'Open Sans', sans-serif;
+                &::placeholder {
+                    color: #fff;
+                }
+            }
+            .btn-save{
+                font-family: 'Inter', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                color: #fff;
+                background: #436DB3;
+                border-radius: 8px;
+                padding: 5px 14px;
+            }
+        }
+        .privacySettings{
+            .privecyButton{
+                background: #436DB3;
+                font-family: "Inter", sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                color: #fff;
+                border-radius: 8px;
+                display: inline-block;
+                padding: 10px 25px 10px 40px;
+                position: relative;
+                margin-bottom: 30px;
+                i{
+                    border-radius: 8px;
+                    position: absolute;
+                    top: 4px;
+                    left: 6px;
+                    background: red;
+                    width: 26px;
+                    height: 26px;
+                    font-size: 15px;
+                    line-height: 5px;
+                    text-align: center;
+                    display: block;
+                    padding: 5px 0px;
+                    &.down{
+                        background: black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+.backButton{
+    a{
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        i{
+            font-size: 20px;
+        }
+    }
+
+}
+
+.profile_settings .editProfileBlock .changePassword .form-control::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+

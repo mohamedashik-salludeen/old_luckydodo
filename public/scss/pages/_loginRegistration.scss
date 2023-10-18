@@ -1,0 +1,737 @@
+
+.reg_strock{
+    background-image: url(/images/reg_strock.png);
+    background-repeat: no-repeat;
+    .register-area{
+        background-color: transparent;
+        .regForm1{
+            max-width: 400px;
+        }
+    }
+}
+
+.reg_form_1{
+    .register-form{
+        .form-control{
+            font-size: 13px;
+        }
+        .optional{
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            color: #C4C4C4;
+        }
+        .alreadyUser{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #C4C4C4;
+            font-family: 'Space Grotesk';
+            a{
+                text-decoration-line: underline;
+                color: #476D73;
+                font-family: 'Space Grotesk';
+            }
+        }
+    }
+}
+
+select.lucky-select{
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+
+.passShowHide {
+    position: relative;
+    button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: transparent;
+        padding: 2px 11px 7px;
+    }
+}
+
+
+
+.log-reg-area{
+    background-color: #fff;
+    font-family: "Raleway", sans-serif;
+
+    p{
+        font-family: "Raleway", sans-serif;
+    }
+}
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+.login_form{
+   width: 23rem;
+}
+
+.googleIcon {
+    margin-right: 10px;
+}
+.loginIcon {
+    margin-right: 10px;
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+form.login_form p {
+    color: rgba(43, 43, 43, 0.5);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.welcome_text {
+    padding-bottom: 27px;
+}
+
+.welcome_text h3 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+} 
+
+form label {
+    color: rgba(43, 43, 43, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.remember_forget_area {
+    padding: 3px 0 12px;
+}
+
+button.btn.btn-info.btn-lg {
+    background: #2B2B2B;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.left_area {
+    padding-top: 50px!important;
+}
+
+p.bottom_text a.link-info {
+    color: rgba(43, 43, 43, 1)!important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+p.bottom_text {
+    color: rgba(43, 43, 43, 1)!important;
+    font-size: 16px!important;
+    font-weight: 400!important;
+}
+
+.login_bottom_social .btn.btn-light.btn-lg {
+    border-radius: 50px;
+    line-height: 38px;
+    font-size: 27px;
+    padding: 3px 11px 7px;
+}
+
+.login_bottom_social .googleIcon {
+    margin-right: 0px;
+}
+
+.btn.btn-light.btn-lg {
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    color: #2B2B2B;
+    font-size: 20px;
+    line-height: 23px;    
+    font-weight: 600;
+    margin-top: 6px;
+    border-radius: 10px;
+    padding: 15px;
+    
+    
+    span{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        line-height: 23px;
+    }
+}
+
+.btn.btn-light.btn-lg.facebook{
+    color: #1877f2;
+}
+
+form input.form-control::placeholder {
+    color: rgba(43, 43, 43, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+form input.form-control {
+    border-color: rgba(215, 215, 215, 1);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.login-bg-light {
+    padding: 13px 15px 13px;
+}
+
+.remember{
+    .form-check-input {
+        width: 16px;
+        height: 16px;
+        padding: 0;
+        margin-top: 9px;
+    }
+}
+.register_sc .logo {
+    padding-bottom: 29px;
+    padding-top: 13px;
+}
+
+.register_sc .logo img {
+    width: 150px;
+}
+.register-area .title h2 {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 25px;
+    font-family: "Inter", sans-serif;
+}
+
+form.register-form .form-control {
+    border: 1px solid #CCCCCC;
+    box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
+    border-radius: 4px;
+    height: 40px;
+}
+select.form-control.form-control-lg {
+    color: rgba(204, 204, 204, 1);
+    font-size: 16px;
+}
+
+input.PhoneInputInput {
+    background: transparent;
+    color: rgba(0, 0, 0, 1);
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+}
+
+.passcode p {
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 27px;
+}
+button.btn.btn-info.btn-lg.regi-btn {
+    width: 100%;
+    padding: 15px 0;
+    margin: 14px 0;
+    background: rgb(0, 125, 250);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Space Grotesk';
+}
+
+.regi_2 button.btn.btn-info.btn-lg.regi-btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Poppins';
+}
+
+.register-area {
+    min-height: 100vh;
+    background: #fff;
+}
+
+.passcode {
+    margin: 7px 0 35px;
+}
+
+.register_sc.regi_2 .logo {
+    padding-bottom: 15px;
+    padding-top: 90px;
+}
+
+.login_bottom_social {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.signup-text {
+    padding-bottom: 30px;
+}
+
+.register_sc.regi_21 .logo {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.signup-text {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.signup-text h3 {
+    font-family: "Inter", sans-serif;
+    color: #112D48;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.regi_2 .signup-text h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.15008px;
+    color: #112D48;
+}
+
+.signup-text p {
+    color: #829AB1;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.regi_2 form.register-form .form-control {
+    height: 52px;
+    background: #FFFFFF;
+    border: 1px solid rgba(23, 78, 130, 0.15);
+    border-radius: 8px;
+    box-shadow: none;
+} 
+.regi_2 label.form-label {
+    margin-bottom: 2px;
+}
+
+.mba-text {
+    padding: 26px 0 5px;
+}
+
+.regi_2 button.btn.btn-info.btn-lg.regi-btn {
+    height: 73px;
+}
+
+a.mba_link {
+    color: #007dfa;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.mba-text p {
+    color: #829AB1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.15008px;
+    text-align: center;
+}
+.regi_2 .register-form-area {
+    padding-bottom: 70px;
+}
+
+.regi_2 label.form-label {
+    margin-bottom: 2px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #112D48;
+}
+
+.mba-text p {
+    color: #829AB1;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.15008px;
+    text-align: center;
+}
+
+
+
+.mba-text {
+    padding: 26px 0 5px;
+}
+
+.regi_2 button.btn.btn-info.btn-lg.regi-btn {
+    height: 73px;
+}
+
+a.mba_link {
+    color: #007dfa;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.value_text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.value_text p {
+    color: #829AB1;
+    font-size: 15px;
+    line-height: 18px;
+    /* letter-spacing: -0.112px; */
+}
+
+.regi_2 .value_text p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.regi_2 .value_text p a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.value_text p a {
+    color: #2C80FF;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+}
+
+.regi_2 .register-form-area {
+    padding-bottom: 70px;
+}
+.signup-buttons {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.signup-buttons button.btn.btn-light.btn-lg.signupform{
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+    border-radius: 10px;
+    background: #FEFEFE;
+    color: #757575;
+    border: none;
+}
+
+.fb {
+    background: #1877F2!important;
+    color: #fff!important;
+}
+.app {
+    background: #000!important;
+    color: #fff!important;
+}
+
+button.mobile-btn {
+    background: #F7F7F7;
+    border-radius: 10px;
+    height: 73px;
+    span{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #3C4071;
+    }
+}
+
+
+.login_or {
+    margin-bottom: 20px;
+    span{
+        position: relative;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #161E2E;
+        &:before {
+            content: "";
+            width: 70px;
+            position: absolute;
+            border-top: 2px solid #E0E0E0;
+            top: 10px;
+            right: 27px;
+        }
+        &:after {
+            content: "";
+            width: 70px;
+            position: absolute;
+            border-top: 2px solid #E0E0E0;
+            top: 10px;
+            left: 27px;
+        }
+    }
+    
+    
+}
+
+.login_mobile_area{
+    padding: 0 80px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mobile_number_input{
+    button.btn.btn-blue.btn-lg {
+        height: 73px;
+    }
+    button.btn.btn-blue.btn-lg span {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .infotext{
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        color: #91969F;
+    }
+
+    .mobile_number_for_otp{
+        position: relative;
+        margin-top: 25px;
+        .PhoneInput {
+            border: 3px solid #80BEFC;
+            border-radius: 10px;
+        }
+        .mobileLebel{
+            position: absolute;
+            color: #3C4071;
+            font-size: 12px;
+            line-height: 18px;
+            background: #fff;
+            top: -7px;
+            left: 20px;
+            padding: 0 5px;
+            font-weight: 500;
+            font-family: 'Poppins', sans-serif;
+        }
+        .PhoneInputInput {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            color: #3C4071;
+            font-family: 'Poppins';
+        }
+    }
+
+    .infoDesc{
+        margin: 20px 0;
+        p{
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            text-align: center;
+            color: #91969F;
+            a{
+                color: #1B7BDB;
+            }
+        }
+    }
+    button {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;  
+    }
+    
+}
+
+.btn.btn-blue{
+    background-color: #007DFA;
+    border-color: #007DFA;
+    color: #fff;
+}
+
+.otpModalArea{
+    .otp-logo{
+        margin: 80px 0 20px;
+    }
+    .optTitle{
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+        color: #353046;
+        margin: 40px 0 30px 0;
+    }
+    .otpInputArea{
+        max-width: 500px;
+        margin: 0 auto;
+        .info{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            color: #3C4071;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .resendButton{
+                a{
+                    color: #4482DF;
+                }
+            }
+        }
+        .otpInputs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 20px 0;
+            .form-control{
+                background: #F2F5FF;
+                border-radius: 10px;
+                text-align: center;
+                font-size: 30px;
+                color: #353046;
+                width: 67px;
+                height: 67px;
+            }
+        }
+        .updateInfoLink{
+            a{
+                font-size: 20px;
+                line-height: 25px;
+                text-align: right;
+                text-decoration-line: underline;
+                color: #4482DF;
+                font-weight: 500;
+            }
+        }
+        .continueButton {
+            padding: 30px 50px;
+            button{
+                span{
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+        }
+    }
+
+    .modalClose{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        border-radius: 11px;
+        background-color: #E5EAF0;
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+    
+.forget_link{
+    a{
+        font-weight: 600;
+        font-size: 16px;
+        color: rgba(43, 43, 43, 1);
+    }
+}
+
+.register-form-area{
+    label.form-label {
+        font-family: 'Space Grotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+    }
+    
+}
+
+.register-form-area .form-outline input.form-control::placeholder {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #CCCCCC;
+}
+
+.regi_2 form.register-form .form-control::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(13, 60, 109, 0.5);
+}
+
+form.login_form label {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B2B2B;
+}
+form.login_form input.form-control::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(43, 43, 43, 0.5);
+}
+
+form.login_form .form-check-label {
+    font-weight: 400;
+}
+form.login_form .btn.btn-light.btn-lg span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2B2B2B;
+}
